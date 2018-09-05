@@ -2,16 +2,21 @@
 * @Author: betterLeaf
 * @Date:   2018-09-05 11:09:11
 * @Last Modified by:   Administrator
-* @Last Modified time: 2018-09-05 11:22:26
+* @Last Modified time: 2018-09-05 13:19:46
 */
 
-// 给定一个数组，和结果目标，选出合适的值
-function target(arr, targer){
-	for(let i =0;i<arr.length;i++) {
-		for(let j =0; j<arr.length;j++){
-			if(arr[i] == targer-arr[j]){
-				return [arr[i], arr[j]]
-			}
-		}
+// 冒泡
+function mp(arr) {
+	for(let i = 0;i<arr.length;i++){
+	  for(let j = 0; j<arr.length;j++){
+	    if(arr[i]<arr[j]){
+	      let a ='';
+	      a = arr[i];
+	      arr[i] = arr[j];
+	      arr[j] = a;
+	      a='';
+	    }
+	  }
 	}
-}
+	return arr;
+} 
