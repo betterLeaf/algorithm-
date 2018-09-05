@@ -1,9 +1,10 @@
 /*
-* @Author: betterLeaf
-* @Date:   2018-09-05 11:09:11
+* @Author: Administrator
+* @Date:   2018-09-05 11:22:40
 * @Last Modified by:   Administrator
-* @Last Modified time: 2018-09-05 11:22:26
+* @Last Modified time: 2018-09-05 11:22:55
 */
+
 
 // 给定一个数组，和结果目标，选出合适的值
 function target(arr, targer){
